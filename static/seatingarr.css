@@ -1,0 +1,48 @@
+/* Prevent the text contents of draggable elements from being selectable. */
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.columns {
+	max-width: 100%;
+	text-align: center;
+}
+
+.test{
+   margin-left: 19%;
+}
+
+.test2{
+   margin-left: 6%;
+}
+
+.column {
+  max-width: 5.5%;
+  float: left;
+  margin-right: 5px;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 3px #000;
+  -ms-box-shadow: inset 0 0 3px #000;
+  box-shadow: inset 0 0 3px #000;
+  text-align: center;
+  cursor: move;
+  margin-left: auto;   
+  margin-right: auto;   
+  width: 8em; }
+}
+
+.column.over {
+  border: 1px dashed #000;
+}
+
+
+img {
+max-width: 100%;
+height: auto;
+}
